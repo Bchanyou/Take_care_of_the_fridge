@@ -29,11 +29,11 @@
 
 개발도구: (프론트)VS, (백)Eclipse, Jupyter Notebook  
 
-서버환경: 
+서버환경: Apache Tomcat
 
 데이터베이스:  MYSQL 
 
-협업도구:
+협업도구: github, Kakaotalk
 
 ## ⚙ 시스템 아키텍처(구조) 예시 
 
