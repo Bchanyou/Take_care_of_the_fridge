@@ -24,9 +24,9 @@
 * 기능5 : 회원정보 변경, 비밀번호 찾기시 랜덤 생성하여 이메일 보내기 
 
 ## ⛏ 기술스택 
-사용언어: (프론트)HTML,CSS, JSP (백) JAVA (OCR) 파이썬 GVA, Google Cloud Storage 
+사용언어: (프론트)HTML,CSS, JSP (백) JAVA (OCR) Python
 
-개발도구: (프론트)VS, (백)Eclipse, Jupyter Notebook  
+개발도구: (프론트)VS - HTML, CSS, JSP, (백)Eclipse, Jupyter Notebook  
 
 서버환경: Apache Tomcat
 
@@ -83,12 +83,29 @@
    
 해결방법 > 하나의 서블렛으로 묶고 맵퍼 설정을 바르게 했더니 수정 완료.
 
-6. 고객센터
+5. 고객센터
 문제점 : 1:1 문의글 작성안됨, 게시판 작성, 문의사항 글작성 오류, 같은 제목의 글 작성시 view가 선택되지 않는 오류가 발생.
 
 해결방법 > 제목과 글 작성 시간을 받아서 검색하도록 수정.
 
-## 산출문서 모음
+6. 언어 오류
+문제점 : 한글이 깨지는 현상
+
+해결방법 > jsp 상단에 기본 설정을 입력.
+
+7. OCR 정확도 저조
+문제점 : 대부분의 이미지를 넣었을 때 숫자를 인식해내지 못하는 문제 발견.
+         문제 해결을 위해 가중치, 확산도를 조절해 보았으나 여전히 저조.
+
+해결방법 > Google Vision API 사용.
+
+8. API 설정 오류
+문제점 : Google Cloud Storage에 이미지를 저장하고 flask를 통해 전처리를 하는 과정에서 이미지가 정상적으로 불러와지지 않고
+        권한 관련 오류와 결제 관련 오류가 계속 뜸.
+
+해결방법 > Google Cloud의 프로젝트를 새로 만들고 서비스계정에 필요한 권한을 추가하여 재시도 이후 문제 해결.
+
+## 💾 산출문서 모음
 [핵심프로젝트_테이블명세서.pdf](https://github.com/user-attachments/files/16049182/_.pdf)
 
 [핵심프로젝트_데이터베이스요구사항분석서.pdf](https://github.com/user-attachments/files/16049181/_.pdf)
