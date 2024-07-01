@@ -34,12 +34,14 @@
 
 협업도구: github, Kakaotalk
 
-## ⚙ 시스템 아키텍처(구조) 예시 
+## ⚙ 시스템 아키텍처(구조)
+![시스템 아키텍쳐](https://github.com/Bchanyou/Take_care_of_the_fridge/assets/162541713/5e066cd2-f710-4b3e-b9cd-ef2e282c394e)
+
 
 ## 📌 HTTP(Apache Tomcat), Python(Jupyter), Mybatis(DataBase), 외부 API(Calender), Flask(Google Cloud Storage,Google Version API)
 
 ## 🖥 화면 구성
-
+화면 설계서 참고.
 
 ### my냉장고/캘린더/레시피/고객센터/회원정보관리/로그아웃
 
@@ -85,3 +87,12 @@
 문제점 : 1:1 문의글 작성안됨, 게시판 작성, 문의사항 글작성 오류, 같은 제목의 글 작성시 view가 선택되지 않는 오류가 발생.
 
 해결방법 > 제목과 글 작성 시간을 받아서 검색하도록 수정.
+
+## 산출문서 모음
+[핵심프로젝트_테이블명세서.pdf](https://github.com/user-attachments/files/16049182/_.pdf)
+[핵심프로젝트_데이터베이스요구사항분석서.pdf](https://github.com/user-attachments/files/16049181/_.pdf)
+[핵심프로젝트_요구사항정의서.pdf](https://github.com/user-attachments/files/16049180/_.pdf)
+[핵심프로젝트_기획발표서.pdf](https://github.com/user-attachments/files/16049188/_.pdf)
+[핵심프로젝트 - 팀원 소개서.pdf](https://github.com/user-attachments/files/16049187/-.pdf)
+[핵심 프로젝트 기획 보고서.pdf](https://github.com/user-attachments/files/16049185/default.pdf)
+
