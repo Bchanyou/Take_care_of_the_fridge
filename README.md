@@ -38,7 +38,7 @@
 ![시스템 아키텍쳐](https://github.com/Bchanyou/Take_care_of_the_fridge/assets/162541713/5e066cd2-f710-4b3e-b9cd-ef2e282c394e)
 
 
-## 📌 HTTP(Apache Tomcat), Python(Jupyter), Mybatis(DataBase), 외부 API(Calender), Flask(Google Cloud Storage,Google Version API)
+📌 HTTP(Apache Tomcat), Python(Jupyter), Mybatis(DataBase), 외부 API(Calender), Flask(Google Cloud Storage,Google Version API)
 
 ## 🖥 화면 구성
 화면 설계서 참고.
@@ -90,9 +90,15 @@
 
 ## 산출문서 모음
 [핵심프로젝트_테이블명세서.pdf](https://github.com/user-attachments/files/16049182/_.pdf)
+
 [핵심프로젝트_데이터베이스요구사항분석서.pdf](https://github.com/user-attachments/files/16049181/_.pdf)
+
 [핵심프로젝트_요구사항정의서.pdf](https://github.com/user-attachments/files/16049180/_.pdf)
+
 [핵심프로젝트_기획발표서.pdf](https://github.com/user-attachments/files/16049188/_.pdf)
+
 [핵심프로젝트 - 팀원 소개서.pdf](https://github.com/user-attachments/files/16049187/-.pdf)
+
 [핵심 프로젝트 기획 보고서.pdf](https://github.com/user-attachments/files/16049185/default.pdf)
+
 
